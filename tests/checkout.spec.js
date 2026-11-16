@@ -9,8 +9,9 @@ test.describe('Checkout', () => {
   });
 
   test('user completes checkout end to end and sees the confirmation message', async ({
-    inventoryPage,
+    
     cartPage,
+    inventoryPage,
     checkoutPage,
     page,
   }) => {
