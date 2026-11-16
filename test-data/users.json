@@ -1,0 +1,23 @@
+{
+  "users": {
+    "standard": { "username": "standard_user", "password": "secret_sauce" },
+    "lockedOut": { "username": "locked_out_user", "password": "secret_sauce" },
+    "invalid": { "username": "not_a_real_user", "password": "wrong_password" }
+  },
+  "errors": {
+    "invalidCredentials": "Epic sadface: Username and password do not match any user in this service",
+    "lockedOut": "Epic sadface: Sorry, this user has been locked out.",
+    "usernameRequired": "Epic sadface: Username is required"
+  },
+  "customer": {
+    "firstName": "Anil",
+    "lastName": "Tester",
+    "postalCode": "560001"
+  },
+  "products": {
+    "backpack": "Sauce Labs Backpack",
+    "bikeLight": "Sauce Labs Bike Light",
+    "boltTShirt": "Sauce Labs Bolt T-Shirt"
+  },
+  "menuItems": ["All Items", "Dynamic Catalog", "About", "Logout", "Reset App State"]
+}

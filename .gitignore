@@ -1,0 +1,12 @@
+# Secrets - never commit your real .env file
+.env
+
+# Dependencies
+node_modules/
+
+# Playwright output
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
