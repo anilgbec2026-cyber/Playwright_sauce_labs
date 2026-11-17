@@ -10,8 +10,9 @@ test.describe('Cart', () => {
 
   test('adding one item shows it in the cart', async ({ inventoryPage, cartPage }) => {
     // Arrange
-    const { backpack } = data.products;
+   
     // Act
+     const { backpack } = data.products;
     await inventoryPage.addToCart(backpack);
     await inventoryPage.openCart();
     // Assert
